@@ -10,6 +10,7 @@ public class CheckIfAStringCanBePallindrome {
         int countOddStr = 0, idx = 0, val;
         for(; idx < s.length(); idx++) {
             val = s.charAt(idx);
+            //System.out.println(val);
             letters[val]++;
             if (letters[val] % 2 > 0) {
                 countOddStr++;
