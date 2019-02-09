@@ -9,6 +9,10 @@ package careerCup;
 public class ImplementNewMap {
 
 	//git pull
+	
+	public static void main(String[] args) {
+		System.out.println("Hello World");
+	}
 
 }
 
