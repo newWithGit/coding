@@ -1,7 +1,5 @@
 package dataStructure;
 
-import javafx.collections.transformation.SortedList;
-
 public class Tree<E> {
 
     Node head;
