@@ -1,7 +1,7 @@
 # IDEs and editors
 /.idea
-/.class
+*.class
 
-/build*
+/build
 /.gradle
 /out
