@@ -16,6 +16,8 @@ public class Test {
             countryMap.put(compliantCountry[i], country.get(++indx));
         }
         System.out.println(countryMap);
+
+
     }
 
 }

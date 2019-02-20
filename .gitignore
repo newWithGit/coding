@@ -1,0 +1,7 @@
+# IDEs and editors
+/.idea
+/.class
+
+/build*
+/.gradle
+/out
