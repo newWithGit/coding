@@ -11,7 +11,7 @@ import java.util.stream.Collectors;
 public class LambdaSort {
 
     private static void testSort() {
-        Employee employee = new Employee("Saurav", "Kumar", 1234, 10000);
+        /*Employee employee = new Employee("Saurav", "Kumar", 1234, 10000);
         Employee employee1 = new Employee("Saurav", "Kumar", 1234, 20000);
         Employee employee2 = new Employee("Saurav", "Kumar", 1234, 30000);
         Employee employee3 = new Employee("Saurav", "Kumar", 1234, 40000);
@@ -27,7 +27,7 @@ public class LambdaSort {
         Comparator<Employee> comparator = Comparator.comparingInt(Employee::getSalary);
 
         List<Employee> employeeList = employees.stream().sorted(comparator).collect(Collectors.toList());
-        System.out.println(employeeList);
+        System.out.println(employeeList);*/
     }
 
     public static void main(String[] args) {
