@@ -13,12 +13,12 @@ public class MergePdfs {
 
     private static void mergePdfs() {
 
-        try (InputStream page1 = new FileInputStream(new File("C:\\Users\\sauravk\\Documents\\Personal\\Walmart\\Page1.pdf"));
-             InputStream page2 = new FileInputStream(new File("C:\\Users\\sauravk\\Documents\\Personal\\Walmart\\Page2.pdf"));
-             InputStream page3 = new FileInputStream(new File("C:\\Users\\sauravk\\Documents\\Personal\\Walmart\\Page3.pdf"));
-             InputStream page4 = new FileInputStream(new File("C:\\Users\\sauravk\\Documents\\Personal\\Walmart\\Page4.pdf"));
-             InputStream page5 = new FileInputStream(new File("C:\\Users\\sauravk\\Documents\\Personal\\Walmart\\Page5.pdf"));
-             OutputStream mergedPdf = new FileOutputStream(new File("C:\\Users\\sauravk\\Documents\\Personal\\Walmart\\SignedOfferLetter.pdf"))){
+        try (InputStream page1 = new FileInputStream(new File("C:\\Users\\sauravk\\Documents\\Personal\\Walmart\\New_Offer_Letter\\Page1.pdf"));
+             InputStream page2 = new FileInputStream(new File("C:\\Users\\sauravk\\Documents\\Personal\\Walmart\\New_Offer_Letter\\Page2.pdf"));
+             InputStream page3 = new FileInputStream(new File("C:\\Users\\sauravk\\Documents\\Personal\\Walmart\\New_Offer_Letter\\Page3.pdf"));
+             InputStream page4 = new FileInputStream(new File("C:\\Users\\sauravk\\Documents\\Personal\\Walmart\\New_Offer_Letter\\Page4.pdf"));
+             InputStream page5 = new FileInputStream(new File("C:\\Users\\sauravk\\Documents\\Personal\\Walmart\\New_Offer_Letter\\Page5.pdf"));
+             OutputStream mergedPdf = new FileOutputStream(new File("C:\\Users\\sauravk\\Documents\\Personal\\Walmart\\New_Offer_Letter\\SignedOfferLetter.pdf"))){
 
             PDFMergerUtility pdfMergerUtility = new PDFMergerUtility();
             pdfMergerUtility.addSource(page1);

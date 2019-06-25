@@ -3,6 +3,9 @@ package razorpay;
 import java.util.LinkedHashSet;
 import java.util.Set;
 
+// request has to always go to s1 first, then s3, then s2
+// if doesn't falls under any of them, return please retry
+
 public class RequestHandling {
 
     private static Set<Server> servers = new LinkedHashSet<>();
