@@ -1,6 +1,6 @@
 package string
 
-fun titleCase(input: String, delimiter: Char, replaceWith: Char) {
+fun titleCase(input: String, delimiter: Char = '_', replaceWith: Char = '/') {
     var toCapitalize = true
     var result = CharArray(input.length)
     var isFirst = true
@@ -25,9 +25,11 @@ fun titleCase(input: String, delimiter: Char, replaceWith: Char) {
             }
         }
     }
-    print(result)
+    print(result.joinToString(separator = ""))
 }
 
 fun main() {
-    titleCase("SAURAV_KUMAR_OPENTEXT_Bangalore", '_', '/')
+    //titleCase("SAURAV_KUMAR_OPENTEXT_Bangalore", delimiter = '_', replaceWith = ' ')
+    var char = '\u0000'
+    print("Saurav${char}kumar")
 }
