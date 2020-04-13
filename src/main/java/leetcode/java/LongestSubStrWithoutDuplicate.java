@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.java;
 
 /**
  * Find the longest substring which have no duplicate

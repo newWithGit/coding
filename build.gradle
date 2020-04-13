@@ -20,6 +20,27 @@ dependencies {
     implementation("org.apache.pdfbox:pdfbox:2.0.13")
     // https://mvnrepository.com/artifact/org.apache.xmlgraphics/fop
     compile group: 'org.apache.xmlgraphics', name: 'fop', version: '2.3'
+    // https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient
+    compile group: 'org.apache.httpcomponents', name: 'httpclient', version: '4.5'
+    // https://mvnrepository.com/artifact/org.jsoup/jsoup
+    compile group: 'org.jsoup', name: 'jsoup', version: '1.11.3'
+    // https://mvnrepository.com/artifact/com.itextpdf/itextpdf
+    compile group: 'com.itextpdf', name: 'itextpdf', version: '5.5.13.1'
+    // https://mvnrepository.com/artifact/net.sf.cssbox/pdf2dom
+    compile group: 'net.sf.cssbox', name: 'pdf2dom', version: '1.8'
+    // https://mvnrepository.com/artifact/com.itextpdf.tool/xmlworker
+    compile group: 'com.itextpdf.tool', name: 'xmlworker', version: '5.5.13.1'
+    // https://mvnrepository.com/artifact/io.swagger/swagger-codegen-cli
+    // https://mvnrepository.com/artifact/io.swagger/swagger-codegen-cli
+    compile group: 'io.swagger', name: 'swagger-codegen-cli', version: '3.0.0-rc1'
+    // https://mvnrepository.com/artifact/org.apache.pdfbox/jbig2-imageio
+    compile group: 'org.apache.pdfbox', name: 'jbig2-imageio', version: '3.0.0'
+    // https://mvnrepository.com/artifact/javax.validation/validation-api
+    compile group: 'javax.validation', name: 'validation-api', version: '2.0.1.Final'
+    // https://mvnrepository.com/artifact/org.hibernate/hibernate-validator
+    compile group: 'org.hibernate', name: 'hibernate-validator', version: '5.4.3.Final'
+    // https://mvnrepository.com/artifact/javax.el/javax.el-api
+    compile group: 'javax.el', name: 'javax.el-api', version: '2.2.4'
 
 }
 
